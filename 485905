@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int mark;
+    printf("Menu\n1. Between 90 to 100,Press 1\n2. Between 85 to 90,Press 2\n3. Between 70 to 85, Press 3\n4. Between 55 to 70,Press 4\n5. Between 40 to 55,Press 5\n6. Less than 40, Press 6\n");
+    printf("Enter Choice \n");
+    scanf("%d",&mark);
+    switch(mark)
+    {
+    case 1:
+        printf("Grade A");
+        break;
+    case 2:
+        printf("Grade B");
+        break;
+    case 3:
+        printf("Grade C");
+        break;
+    case 4:
+        printf("Grade D");
+        break;
+    case 5:
+        printf("Grade E");
+        break;
+    case 6:
+        printf("Grade F");
+        break;
+    default:
+        printf("Enter correct choice .");
+    }
+    return 0;
+}
